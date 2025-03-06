@@ -1,0 +1,118 @@
+/* 1. Reset básico para eliminar márgenes y rellenos predeterminados */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 2. Estilos generales para el cuerpo de la página */
+body {
+    font-family: 'Arial', sans-serif; /* Fuente predeterminada */
+    line-height: 1.6; /* Espaciado entre líneas */
+    color: #333; /* Color de texto predeterminado */
+    background-color: #f4f4f4; /* Color de fondo */
+    padding: 20px; /* Espaciado interno */
+}
+
+/* 3. Estilos para encabezados */
+h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 1rem; /* Espaciado inferior */
+    color: #222; /* Color de texto para encabezados */
+}
+
+h1 {
+    font-size: 2.5rem; /* Tamaño de fuente para h1 */
+}
+
+h2 {
+    font-size: 1.5rem; /* Tamaño de fuente para h2 */
+}
+
+h3 {
+    font-size: 1rem; /* Tamaño de fuente para h3 */
+}
+
+/* 4. Estilos para párrafos */
+p {
+    margin-bottom: 1rem; /* Espaciado inferior */
+}
+
+/* 5. Estilos para enlaces */
+a {
+    color: #007BFF; /* Color de enlaces */
+    text-decoration: none; /* Sin subrayado */
+}
+
+a:hover {
+    text-decoration: underline; /* Subrayado al pasar el mouse */
+}
+
+/* 6. Estilos para botones */
+button {
+    background-color: #007BFF; /* Color de fondo */
+    color: #fff; /* Color de texto */
+    border: none; /* Sin borde */
+    padding: 10px 20px; /* Espaciado interno */
+    cursor: pointer; /* Cursor de tipo puntero */
+    border-radius: 5px; /* Bordes redondeados */
+}
+
+button:hover {
+    background-color: #0056b3; /* Color de fondo al pasar el mouse */
+}
+
+/* 7. Estilos para formularios */
+input, textarea, select {
+    width: 100%; /* Ancho completo */
+    padding: 10px; /* Espaciado interno */
+    margin-bottom: 1rem; /* Espaciado inferior */
+    border: 1px solid #ccc; /* Borde */
+    border-radius: 5px; /* Bordes redondeados */
+}
+
+input:focus, textarea:focus, select:focus {
+    border-color: #007BFF; /* Color del borde al enfocar */
+    outline: none; /* Sin contorno predeterminado */
+}
+
+/* 8. Estilos para contenedores */
+.container {
+    max-width: 1200px; /* Ancho máximo del contenedor */
+    margin: 0 auto; /* Centrar el contenedor */
+    padding: 0 20px; /* Espaciado interno */
+}
+
+section {
+    clear: left;
+}
+
+.centrar-texto {
+    text-align: center;
+}
+
+img {
+    float: left;
+    padding-right: 40px;
+    padding-bottom: 30px;
+}
+
+/* 9. Estilos para la barra de navegación */
+.navbar {
+    background-color: #333; /* Color de fondo */
+    color: #fff; /* Color de texto */
+    padding: 10px 20px; /* Espaciado interno */
+}
+
+.navbar a {
+    color: #fff; /* Color de enlaces */
+    margin-right: 15px; /* Espaciado entre enlaces */
+}
+
+/* 10. Estilos para el pie de página */
+.footer {
+    background-color: #333; /* Color de fondo */
+    color: #fff; /* Color de texto */
+    text-align: center; /* Texto centrado */
+    padding: 20px; /* Espaciado interno */
+    margin-top: 20px; /* Espaciado superior */
+}
